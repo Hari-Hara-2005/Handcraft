@@ -49,14 +49,14 @@ export default function Faq() {
                         borderTop: "none",
                         borderRadius: '.4rem',
                         p: 1,
-                        bgcolor: '#181818',
+                        bgcolor: '#212121',
                         color: '#fff'
                     },
                     "& .MuiPaper-root.MuiAccordion-root.Mui-expanded": {
                         boxShadow: "0px 12px 21px rgb(0 0 0 / 5%)",
                         borderTop: "none",
                         borderRadius: '.4rem',
-                        background: "linear-gradient(91.83deg,#181818 0%, #181818  100%)",
+                        background: "linear-gradient(91.83deg,#212121 0%, #212121  100%)",
                         color: "#fff",
                         p: 1
                     },

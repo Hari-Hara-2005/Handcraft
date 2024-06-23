@@ -10,7 +10,6 @@ const Hero = () => {
   return (
     <>
       {/* Hero Section */}
-      <section>
         <Box className="hero_bg" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
           <Box>
             <Typography sx={{
@@ -27,21 +26,19 @@ const Hero = () => {
             </Box>
           </Box>
         </Box>
-      </section>
+
       {/* Best Selling */}
-      <section>
-        <Box sx={{ bgcolor: "#A3BFCA" }}>
+      <Box sx={{bgcolor:'#181818',position:'fixed',height:'100vh',zIndex:0}}></Box>
+        <Box sx={{ bgcolor: "#181818" }}>
           <Box sx={{ display: 'flex', justifyContent: 'center' }}>
             <Title>Best Selling</Title>
           </Box>
         </Box>
-      </section>
       {/* Our Work Section */}
-      <section>
         <Box
           py={{ xs: 3, md: 5, }}
           sx={{
-            bgcolor: '#A3BFCA',
+            bgcolor: '#181818',
             zIndex: 21,
             display: "flex",
             width: "100%",
@@ -340,19 +337,15 @@ const Hero = () => {
             </Box >
           </Box>
         </Box >
-      </section >
       {/* Customer Review Section */}
-      < section >
-        <Box sx={{ bgcolor: "#A3BFCA" }}>
+        <Box sx={{ bgcolor: "#181818" }}>
           <Box sx={{ display: 'flex', justifyContent: 'center' }}>
             <Title>Read what our customers say</Title>
           </Box>
           <CustomerReview />
         </Box>
-      </section >
       {/* Faq Section */}
-      < section >
-        <Box sx={{ bgcolor: "#A3BFCA" }}>
+        <Box sx={{ bgcolor: "#181818" }}>
           <Box sx={{ display: 'flex', justifyContent: 'center' }}>
             <Title>Frequently Asked Question</Title>
           </Box>
@@ -365,7 +358,6 @@ const Hero = () => {
             <Faq />
           </Box>
         </Box>
-      </section >
     </>
   )
 }
